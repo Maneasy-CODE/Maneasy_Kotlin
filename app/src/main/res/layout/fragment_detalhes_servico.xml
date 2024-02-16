@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.ListaServicosFragment"
+        android:background="@drawable/fundo"
+>
+
+
+    <TextView
+            android:id="@+id/detalhes"
+            android:layout_width="281dp"
+            android:layout_height="36dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="Detalhes"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" app:layout_constraintTop_toBottomOf="@+id/logo_perfil"
+            android:layout_marginTop="20dp" app:layout_constraintHorizontal_bias="0.502"/>
+    <TextView
+            android:id="@+id/id_servicos"
+            android:layout_width="387dp"
+            android:layout_height="34dp"
+
+            android:textSize="24sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_bold"
+            android:text="01010101"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            tools:ignore="MissingConstraints" app:layout_constraintTop_toBottomOf="@+id/detalhes"
+            android:layout_marginTop="60dp"/>
+    <TextView
+            android:id="@+id/data_inicio"
+            android:layout_width="387dp"
+            android:layout_height="38dp"
+
+            android:textSize="24sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_bold"
+            android:text="inicio:      XX/XX/XXXX"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/status_servicos" android:layout_marginTop="36dp"
+            app:layout_constraintHorizontal_bias="0.485"/>
+    <TextView
+            android:id="@+id/status_servicos"
+            android:layout_width="389dp"
+            android:layout_height="39dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_bold"
+            android:text="status"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintHorizontal_bias="0.504" app:layout_constraintTop_toBottomOf="@+id/nome_servicos"
+            android:layout_marginTop="28dp"/>
+    <TextView
+            android:id="@+id/descricao"
+            android:layout_width="391dp"
+            android:layout_height="194dp"
+            android:textSize="24sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_regular"
+            android:text="descrição xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" app:layout_constraintTop_toBottomOf="@+id/data_inicio2"
+            android:layout_marginTop="36dp" app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+            android:id="@+id/data_inicio2"
+            android:layout_width="389dp"
+            android:layout_height="38dp"
+
+            android:textSize="24sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_bold"
+            android:text="término:   XX/XX/XXXX"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintHorizontal_bias="0.49" app:layout_constraintTop_toBottomOf="@+id/data_inicio"
+            android:layout_marginTop="32dp"/>
+    <TextView
+            android:id="@+id/nome_servicos"
+            android:layout_width="387dp"
+            android:layout_height="38dp"
+            android:textSize="24sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_bold"
+            android:text="Nome do Serviço"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/tipo_servicos3"
+            android:layout_marginTop="32dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.485"/>
+    <TextView
+            android:id="@+id/tipo_servicos3"
+            android:layout_width="388dp"
+            android:layout_height="36dp"
+
+            android:textSize="24sp"
+            android:textColor="#2274AC"
+            android:fontFamily="@font/verdana_bold"
+            android:text="tipo serviço"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintHorizontal_bias="0.488" app:layout_constraintTop_toBottomOf="@+id/id_servicos"
+            android:layout_marginTop="28dp"/>
+    <ImageView
+            android:src="@drawable/logo_colorida"
+            android:layout_width="158dp"
+            android:layout_height="163dp"
+            android:id="@+id/logo_perfil"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="36dp"
+            app:layout_constraintHorizontal_bias="0.498"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

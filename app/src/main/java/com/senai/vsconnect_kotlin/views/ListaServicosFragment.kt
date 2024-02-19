@@ -1,6 +1,7 @@
 package com.senai.vsconnect_kotlin.views
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +9,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.senai.vsconnect_kotlin.LoginActivity
 import com.senai.vsconnect_kotlin.R
 import com.senai.vsconnect_kotlin.adapters.ListaServico2Adapter
 import com.senai.vsconnect_kotlin.adapters.ListaServicoAdapter

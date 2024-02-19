@@ -22,8 +22,8 @@ interface EndpointInterface {
     @POST("login")
     fun login(@Body usuario: Login): Call<JsonObject>
 
-    @GET("usuarios/{idUsuario}")
-    fun buscarUsuarioPorID(@Path(value = "idUsuario", encoded = true) idUsuario: UUID): Call<JsonObject>
+    @GET("servicos/{idServico}")
+    fun buscarServicoPorID(@Path(value = "idServico", encoded = true) idServico: UUID): Call<JsonObject>
 
     @Multipart
     @PUT("usuarios/editarImagem/{idUsuario}")

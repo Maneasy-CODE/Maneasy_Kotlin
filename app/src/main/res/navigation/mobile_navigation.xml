@@ -30,6 +30,7 @@
         <action android:id="@+id/action_nav_servicos_to_nav_detalhes_servico"
                 app:destination="@id/nav_detalhes_servico"/>
 
+
     </fragment>
 
 </navigation>
